@@ -1,4 +1,4 @@
-package com.android.support;
+package com.ruihq.aumm;
 
 import android.app.ActivityManager;
 import android.app.Service;

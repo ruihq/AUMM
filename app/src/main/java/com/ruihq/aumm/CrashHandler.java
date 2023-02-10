@@ -1,6 +1,6 @@
 //Credit: Raunak Mods - https://t.me/raunakmods786
 
-package com.android.support;
+package com.ruihq.aumm;
 
 import android.app.Activity;
 import android.app.AlertDialog;

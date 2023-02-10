@@ -149,6 +149,7 @@ jobjectArray GetFeatureList(JNIEnv *env, jobject context) {
 			"Toggle_Know Impostor",
 			"Toggle_Always Impostor",
 			"Toggle_Unlock All",
+			"SeekBar_SpeedHack_1_50",
 			"Category_Misc",
 			"Toggle_Coming Soon!",
     };

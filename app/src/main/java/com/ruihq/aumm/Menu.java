@@ -70,11 +70,11 @@ public class Menu {
     //region Variable
     public static final String TAG = "Mod_Menu"; //Tag for logcat
 
-    int TEXT_COLOR = Color.parseColor("#82CAFD");
-    int TEXT_COLOR_2 = Color.parseColor("#FFFFFF");
+    int TEXT_COLOR = Color.parseColor("#FF000000");
+    int TEXT_COLOR_2 = Color.parseColor("#FF000000");
     int BTN_COLOR = Color.parseColor("#1C262D");
-    int MENU_BG_COLOR = Color.parseColor("#EE1C2A35"); //#AARRGGBB
-    int MENU_FEATURE_BG_COLOR = Color.parseColor("#DD141C22"); //#AARRGGBB
+    int MENU_BG_COLOR = Color.parseColor("#74FF0000"); //#AARRGGBB
+    int MENU_FEATURE_BG_COLOR = Color.parseColor("#00000000"); //#AARRGGBB
     int MENU_WIDTH = 290;
     int MENU_HEIGHT = 210;
     int POS_X = 0;
@@ -87,12 +87,12 @@ public class Menu {
     int ToggleOFF = Color.RED;
     int BtnON = Color.parseColor("#1b5e20");
     int BtnOFF = Color.parseColor("#7f0000");
-    int CategoryBG = Color.parseColor("#2F3D4C");
-    int SeekBarColor = Color.parseColor("#80CBC4");
-    int SeekBarProgressColor = Color.parseColor("#80CBC4");
+    int CategoryBG = Color.parseColor("#77FF0000");
+    int SeekBarColor = Color.parseColor("#FF000000");
+    int SeekBarProgressColor = Color.parseColor("#FF000000");
     int CheckBoxColor = Color.parseColor("#80CBC4");
     int RadioColor = Color.parseColor("#FFFFFF");
-    String NumberTxtColor = "#41c300";
+    String NumberTxtColor = "#FF000000";
     //********************************************************************//
 
     RelativeLayout mCollapsed, mRootContainer;

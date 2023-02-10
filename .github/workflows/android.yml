@@ -21,11 +21,9 @@ jobs:
         cache: gradle
 
     - name: Clone Repository
-    - run: git clone https://github.com/ruihq/AUMM
+    - run: cd $HOME git clone https://github.com/ruihq/AUMM
     - name: setup - kirio CI
-    - run: |
-           cd $HOME
-           cd AUMM
+    - run: cd AUMM
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
